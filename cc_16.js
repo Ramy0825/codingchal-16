@@ -61,7 +61,7 @@ function fetchProductsThen() {
   
       container.appendChild(productDiv);
     });
-  };
+  };;
 
   // Task 5- Reusable Error Handle 
 function handleError(error) {
