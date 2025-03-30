@@ -71,5 +71,5 @@ function handleError(error) {
 
   // Task 6: Call Your Fetch Functions
 fetchProductsThen(); 
-fetchProductsAsync(); 
+fetchProductsAsync(); ;
   
