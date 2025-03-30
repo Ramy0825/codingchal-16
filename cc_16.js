@@ -32,7 +32,7 @@ function fetchProductsThen() {
     } catch (error) {
       handleError(error); // Pass errors to the error handler
     }
-  }
+  };
   
   fetchProductsAsync(); // Call the function to test
 
