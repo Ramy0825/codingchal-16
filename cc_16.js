@@ -16,7 +16,7 @@ function fetchProductsThen() {
       .catch(error => {
         console.log("An error occurred:", error);
       });
-  }
+  };
   
   fetchProductsThen();
 
