@@ -28,9 +28,9 @@ function fetchProductsThen() {
         throw new Error("Network response was not ok");
       }
       const data = await response.json();
-      displayProducts(data); // Call display function to render products
+      displayProducts(data); // call display function to show products
     } catch (error) {
-      handleError(error); // Pass errors to the error handler
+      handleError(error); // pass errors to the error gandle
     }
   };
   
