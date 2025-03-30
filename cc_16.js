@@ -3,7 +3,7 @@ function fetchProductsThen() {
     fetch("https://www.course-api.com/javascript-store-products")
       .then(response => {
         if (!response.ok) {
-          throw new Error("Network response was not ok");
+          throw new Error("Network response was not ok");  // show the new errir 
         }
         return response.json();
       })
